@@ -1,0 +1,74 @@
+{
+    "dashboard": {
+      "categories": [
+        {
+          "name": "CNAPP Dashboard",
+          "widgets": [
+            {
+              "type": "Cloud Accounts",
+              "data": {
+                "Connected": 2,
+                "Not Connected": 2
+              },
+              "chart_type": "donut"
+            },
+            {
+              "type": "Cloud Account Risk Assessment",
+              "data": {
+                "Failed": 1889,
+                "Warning": 680,
+                "Not Available": 36,
+                "Passed": 7254
+              },
+              "chart_type": "pie"
+            }
+          ]
+        },
+        {
+          "name": "CWPP Dashboard",
+          "widgets": [
+            {
+              "type": "Top 5 Namespace Specific Alerts",
+              "data": {
+                "No Graph Data Available": 1
+              },
+              "chart_type": "bar"
+            },
+            {
+              "type": "Workload Alerts",
+              "data": {
+                "No Graph Data Available": 1
+              },
+              "chart_type": "bar"
+            }
+          ]
+        },
+        {
+          "name": "Registry Scan",
+          "widgets": [
+            {
+              "type": "Image Risk Assessment",
+              "data": {
+                "Critical": 0,
+                "High": 62,
+                "Medium": 500,
+                "Low": 908
+              },
+              "chart_type": "bar"
+            },
+            {
+              "type": "Image Security Issues",
+              "data": {
+                "Critical": 0,
+                "High": 2,
+                "Medium": 0,
+                "Low": 0
+              },
+              "chart_type": "bar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

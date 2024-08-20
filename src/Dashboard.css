@@ -1,0 +1,31 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .category {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .widgets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .widget {
+    flex: 1 1 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .widget-content {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
